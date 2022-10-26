@@ -110,10 +110,10 @@ function markImp(index){
 
 	let htag = document.createElement("h4");
 	htag.innerHTML = `<a id="mark" class="mx-3 my-3 badge badge-warning">Important</a>`;
-	console.log(index, htag);
+	// console.log(index, htag);
 	let noteCard= document.getElementsByClassName("noteCard")
 	let card = Array.from(noteCard)[index];
-	console.log(card);
+	// console.log(card);
 	card.insertAdjacentElement("afterbegin",htag);
 	
 	
